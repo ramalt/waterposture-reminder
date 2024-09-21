@@ -42,4 +42,4 @@ function sendNotification(item: NotificationItem): void {
 setInterval(() => {
     let i = Math.floor(Math.random() * items.length);
     sendNotification(items[i]);
-}, Math.random() * (2400 - 1200) + 1200);
+}, Math.random() * (240000 - 120000) + 120000);
