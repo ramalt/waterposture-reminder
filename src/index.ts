@@ -30,7 +30,7 @@ function sendNotification(item: NotificationItem): void {
         icon: item.iconPath,
         sound: true,
         wait: true
-    }, (err : any , response : any) => {
+    }, (err: any, response: any) => {
         if (err) {
             console.error("Bildirim gönderirken bir hata oluştu:", err);
         } else {
@@ -42,4 +42,4 @@ function sendNotification(item: NotificationItem): void {
 setInterval(() => {
     let i = Math.floor(Math.random() * items.length);
     sendNotification(items[i]);
-}, Math.random() * (240000 - 120000) + 120000);
+}, 2400000);
