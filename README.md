@@ -19,7 +19,7 @@ Projeyi klonlayın:
 
 ```bash
 git clone https://github.com/kullaniciadi/posture_reminder.git
-cd posture_reminder
+cd waterposture_reminder
 npm install
 chmod +x setup.sh
 sudo ./setup.sh
